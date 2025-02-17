@@ -4,6 +4,73 @@
              xmlns:local="clr-namespace:IntellectuAlNotifierDesktop"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Color -->
+        
+        <Color x:Key="UIBorderBorder">#FF301F08</Color>
+        <Color x:Key="UIBorderBackground">#FF412C11</Color>
+        <Color x:Key="UIBorderSubborder">#FF594121</Color>
+        <Color x:Key="UIBackground">#FFC5A57B</Color>
+        <Color x:Key="UIBackgroundFrame">#FFE5C19E</Color>
+        <Color x:Key="UIBackgroundSubframe">#FFE2BA92</Color>
+        <Color x:Key="TEXTLight">#FFFFF2E4</Color>
+        <Color x:Key="TEXTBorder">#FF362309</Color>
+        <Color x:Key="TEXTDark">#FF201505</Color>
+        <Color x:Key="TEXTDark2">#FF362309</Color>
+        <Color x:Key="MARKERBorder">#FFD20000</Color>
+
+        <!-- Styles -->
+        
+        <!-- Buttons -->
+        <Style x:Key="UIBorderButtonStyle" TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="{StaticResource UIBorderBorder}"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground">
+                <Setter.Value>
+                    <SolidColorBrush Color="{StaticResource TEXTLight}"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="3">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+                    <Trigger.Setters>
+                        <Setter Property="Background">
+                            <Setter.Value>
+                                <SolidColorBrush Color="{StaticResource UIBorderSubborder}"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger.Setters>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" Duration="0:0:0.1" To="{StaticResource UIBorderBackground}"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" Duration="0:0:0.1" To="{StaticResource UIBorderBorder}"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>

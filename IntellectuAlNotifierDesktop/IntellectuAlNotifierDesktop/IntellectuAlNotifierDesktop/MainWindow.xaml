@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IntellectuAlNotifierDesktop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" MinWidth="400" WindowState="Maximized">
+    <Window.FontFamily>
+        <FontFamily>Ubuntu</FontFamily>
+    </Window.FontFamily>
+    <Window.FontWeight>
+        <FontWeight>Bold</FontWeight>
+    </Window.FontWeight>
     <Grid>
-        
+        <Viewbox HorizontalAlignment="Left">
+            <local:SidePanel></local:SidePanel>
+        </Viewbox>
     </Grid>
 </Window>
