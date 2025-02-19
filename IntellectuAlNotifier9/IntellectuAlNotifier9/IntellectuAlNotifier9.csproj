@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NotificationPanel\TopPanel.png" />
+    <None Remove="NotificationPanel\TopPanelSide.png" />
+    <None Remove="SidePanel\LeftBorder.png" />
+    <None Remove="SidePanel\Panel.png" />
+    <None Remove="SidePanel\TopElement.png" />
+    <None Remove="SidePanel\TopElementBorder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="NotificationPanel\TopPanel.png" />
+    <Resource Include="NotificationPanel\TopPanelSide.png" />
+    <Resource Include="SidePanel\LeftBorder.png" />
+    <Resource Include="SidePanel\Panel.png" />
+    <Resource Include="SidePanel\TopElement.png" />
+    <Resource Include="SidePanel\TopElementBorder.png" />
+  </ItemGroup>
+
+</Project>

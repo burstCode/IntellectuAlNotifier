@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntellectuAlNotifier9", "IntellectuAlNotifier9\IntellectuAlNotifier9.csproj", "{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03704B26-57A9-46E7-BB2D-2BC5A2374D93}
+	EndGlobalSection
+EndGlobal
