@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntellectuAlNotifier9", "IntellectuAlNotifier9\IntellectuAlNotifier9.csproj", "{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationAI", "NotificationAI\NotificationAI.csproj", "{AD8547DF-489D-4D92-8E70-24EB210556BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AC00013-03DD-4FAE-9CE1-8CD02DE723FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8547DF-489D-4D92-8E70-24EB210556BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8547DF-489D-4D92-8E70-24EB210556BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8547DF-489D-4D92-8E70-24EB210556BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8547DF-489D-4D92-8E70-24EB210556BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

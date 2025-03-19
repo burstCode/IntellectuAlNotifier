@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\IntellectuAlNotifier9\\IntellectuAlNotifier9.csproj": {}
+    "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\NotificationAI\\NotificationAI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\IntellectuAlNotifier9\\IntellectuAlNotifier9.csproj": {
+    "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\NotificationAI\\NotificationAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\IntellectuAlNotifier9\\IntellectuAlNotifier9.csproj",
-        "projectName": "IntellectuAlNotifier9",
-        "projectPath": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\IntellectuAlNotifier9\\IntellectuAlNotifier9.csproj",
+        "projectUniqueName": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\NotificationAI\\NotificationAI.csproj",
+        "projectName": "NotificationAI",
+        "projectPath": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\NotificationAI\\NotificationAI.csproj",
         "packagesPath": "C:\\Users\\burstlimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\IntellectuAlNotifier9\\obj\\",
+        "outputPath": "C:\\Users\\burstlimit\\Desktop\\Курсач\\IntelectualAiNotifier\\IntellectuAlNotifier9\\NotificationAI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0-windows"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0-windows7.0": {
-            "targetAlias": "net9.0-windows",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +48,18 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.AI.AzureAIInference": {
+              "target": "Package",
+              "version": "[9.1.0-preview.1.25064.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,9 +74,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"

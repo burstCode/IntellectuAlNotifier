@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("IntellectuAlNotifier9")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NotificationAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b9afe284a8561553cc25082abc94eb2d0af5361")]
-[assembly: System.Reflection.AssemblyProductAttribute("IntellectuAlNotifier9")]
-[assembly: System.Reflection.AssemblyTitleAttribute("IntellectuAlNotifier9")]
+[assembly: System.Reflection.AssemblyProductAttribute("NotificationAI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NotificationAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
